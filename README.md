@@ -2,57 +2,69 @@
 
 ## 📌 Overview
 
-**CIPHER-F** is a secure and lightweight file encryption and decryption system built in **C++**, designed to provide reliable protection for sensitive data through a simple and user-friendly interface.
+**CIPHER-F** is a secure file encryption and decryption system built in **C++ using structural (procedural) programming**.
 
-The project combines encryption techniques with structured system design to make secure file handling both accessible and efficient.
+It is designed to provide reliable file protection through a simple, menu-driven interface while maintaining efficiency, clarity, and ease of use.
 
 ---
 
 ## 💡 Motivation
 
-With the increasing need for data privacy, managing secure file operations is essential.
+As data security becomes increasingly important, users need simple and efficient tools for protecting their files.
 
-**CIPHER-F** was developed to simplify file encryption and decryption for users by providing an intuitive system that removes complexity while maintaining strong data protection capabilities.
+**CIPHER-F** was developed to provide a lightweight and accessible solution for file encryption and decryption using a structured programming approach, focusing on simplicity, usability, and clean separation of logic.
 
 ---
 
 ## ⚙️ Key Features
 
-- 🛡️ **File Encryption** — Secure files using a custom encryption key system  
-- 🔓 **Manual Decryption** — Decrypt files using user-provided keys for full control  
-- 🤖 **Automatic Decryption** — Seamless decryption using stored secure keys  
-- ⚡ **Optimized Performance** — Reduced file operation time by up to 40%  
-- 🧠 **User-Friendly Design** — Simple navigation and structured workflow  
+- 🛡️ **File Encryption** — Encrypt files using a custom encryption key  
+- 🔓 **Manual Decryption** — Decrypt files using user-provided keys  
+- 🤖 **Automatic Decryption** — Decrypt files using stored keys for convenience  
+- ⚡ **Optimized Performance** — Improved file operation efficiency by up to 40%  
+- 🧠 **Simple CLI Interface** — Menu-driven system for easy navigation  
 
 ---
 
 ## 🖥️ System Interface
 
-- 🚀 **Startup Screen** — Welcomes users to CIPHER-F  
-- 📋 **Main Menu** — Central navigation for all operations  
-- 📝 **Encryption Screen** — Input file name + key to encrypt files  
-- 🔓 **Manual Decryption Screen** — Decrypt using custom input keys  
-- 🤖 **Auto Decryption Screen** — One-click secure decryption using stored keys  
-- 👋 **Exit Screen** — Clean termination with farewell message  
+- 🚀 **Startup Screen** — Welcome message and initialization  
+- 📋 **Main Menu** — Navigation for all system operations  
+- 📝 **Encryption Screen** — Input file name and encryption key  
+- 🔓 **Manual Decryption Screen** — Decrypt files using user input  
+- 🤖 **Automatic Decryption Screen** — Fast decryption using stored keys  
+- 👋 **Exit Screen** — Clean program termination  
+
+---
+
+## 🧱 Design Approach
+
+The system is implemented using **structural (procedural) programming in C++**, with a modular function-based design.
+
+The architecture follows software design principles inspired by:
+
+- 🧩 **Single Responsibility Principle (SRP)** — Each function handles a specific task  
+- 🔌 **Open/Closed Principle (OCP)** — The system is structured to allow extension with minimal modification  
+- 🔗 **Interface Segregation Principle (ISP)** — Functionality is divided into small, focused components  
 
 ---
 
 ## 📈 Impact
 
-- 👥 Adopted by **50+ users** for secure file operations  
+- 👥 Used by **50+ users** for secure file operations  
 - ⚡ Reduced file handling time by **40%**  
-- 🔐 Improved user awareness of secure data management practices  
-- 🧩 Demonstrated strong system design and C++ development skills  
+- 🔐 Improved understanding of file security concepts  
+- 🧠 Strengthened procedural programming and modular design skills  
 
 ---
 
 ## 🧠 What Makes This Special
 
-- Built **from scratch in C++**
-- Focused on **real-world security use case**
-- Combines **CLI UI + encryption system design**
-- Includes **manual + automated control workflows**
-- Clean architecture with modular structure
+- Built **from scratch in C++ using procedural programming**
+- Focused on a **real-world file security use case**
+- Lightweight and efficient CLI-based system
+- Modular function-based design for clarity and maintainability
+- Inspired by **clean software engineering principles**
 
 ---
 
@@ -60,8 +72,8 @@ With the increasing need for data privacy, managing secure file operations is es
 
 - C++
 - File Handling (I/O Streams)
-- Object-Oriented Programming (OOP)
-- System Design Basics
+- Structural / Procedural Programming
+- CLI (Command Line Interface)
 
 ---
 
@@ -75,4 +87,4 @@ Competitive Programmer & Software Developer
 
 ## ⭐ Vision
 
-To make secure file handling simple, efficient, and accessible through clean system design and practical encryption tools.
+To build simple, efficient, and reliable tools that solve real-world problems using clean and structured programming approaches.
