@@ -74,6 +74,7 @@ The architecture follows software design principles inspired by:
 - File Handling (I/O Streams)
 - Structural / Procedural Programming
 - CLI (Command Line Interface)
+- Modular Design SOLID Principles (SRP, OCP, ISP-inspired)
 
 ---
 
